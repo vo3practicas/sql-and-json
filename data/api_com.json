@@ -1,0 +1,101 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"api.com"},
+{"type":"table","name":"brands","database":"api.com","data":
+[
+{"id":"1","name":"Dell","created_at":"2024-04-28 02:08:42"},
+{"id":"2","name":"HP","created_at":"2024-04-28 02:08:42"},
+{"id":"3","name":"Assus","created_at":"2024-04-28 02:08:42"},
+{"id":"4","name":"Kingston","created_at":"2024-04-28 02:08:42"}
+]
+}
+,{"type":"table","name":"products","database":"api.com","data":
+[
+{"id":"1","name":"Laptop","brand_id":"1","price":"1200","stock":"12","created_at":"2024-04-28 02:09:44"},
+{"id":"2","name":"Smartphone","brand_id":"1","price":"350","stock":"12","created_at":"2024-04-28 02:09:44"},
+{"id":"3","name":"Procesador","brand_id":"1","price":"420","stock":"12","created_at":"2024-04-28 02:09:44"},
+{"id":"4","name":"Monitor","brand_id":"1","price":"120","stock":"12","created_at":"2024-04-28 02:09:44"},
+{"id":"5","name":"Altavoces Bluetooth","brand_id":"1","price":"100","stock":"12","created_at":"2024-04-28 02:09:44"},
+{"id":"6","name":"Tarjeta gráfica","brand_id":"1","price":"600","stock":"12","created_at":"2024-04-28 02:09:44"},
+{"id":"7","name":"Adaptador HDMI","brand_id":"1","price":"10","stock":"12","created_at":"2024-04-28 02:09:44"},
+{"id":"8","name":"Tablet","brand_id":"1","price":"250","stock":"12","created_at":"2024-04-28 02:09:44"},
+{"id":"9","name":"Disco duro externo","brand_id":"1","price":"50","stock":"30","created_at":"2024-04-28 02:09:44"},
+{"id":"10","name":"Teclado","brand_id":"1","price":"20","stock":"15","created_at":"2024-04-28 02:09:44"},
+{"id":"11","name":"Router","brand_id":"1","price":"50","stock":"11","created_at":"2024-04-28 02:09:44"},
+{"id":"12","name":"Drone","brand_id":"1","price":"300","stock":"3","created_at":"2024-04-28 02:09:44"},
+{"id":"13","name":"Impresora 3D","brand_id":"1","price":"90","stock":"7","created_at":"2024-04-28 02:09:44"},
+{"id":"14","name":"Cámara digital","brand_id":"1","price":"780","stock":"7","created_at":"2024-04-28 02:09:44"},
+{"id":"15","name":"Auriculares","brand_id":"1","price":"20","stock":"29","created_at":"2024-04-28 02:09:44"},
+{"id":"16","name":"Webcam","brand_id":"1","price":"15","stock":"40","created_at":"2024-04-28 02:09:44"},
+{"id":"17","name":"Memoria USB","brand_id":"1","price":"10","stock":"25","created_at":"2024-04-28 02:09:44"},
+{"id":"18","name":"Teclado inalámbrico","brand_id":"1","price":"35","stock":"35","created_at":"2024-04-28 02:09:44"},
+{"id":"19","name":"Ratón inalámbrico","brand_id":"1","price":"20","stock":"30","created_at":"2024-04-28 02:09:44"}
+]
+}
+,{"type":"table","name":"sells","database":"api.com","data":
+[
+{"id":"1","user_id":"1","product_id":"1","product_price":"1200.5","date":"2024-04-28 02:11:04"},
+{"id":"2","user_id":"1","product_id":"3","product_price":"800.75","date":"2024-04-28 02:11:04"},
+{"id":"3","user_id":"3","product_id":"4","product_price":"300.4","date":"2024-04-28 02:11:04"},
+{"id":"4","user_id":"8","product_id":"2","product_price":"150.2","date":"2024-04-28 02:11:04"},
+{"id":"5","user_id":"4","product_id":"8","product_price":"50.1","date":"2024-04-28 02:11:04"},
+{"id":"6","user_id":"18","product_id":"1","product_price":"1201.5","date":"2024-04-28 02:11:04"},
+{"id":"7","user_id":"1","product_id":"3","product_price":"801.75","date":"2024-04-28 02:11:04"},
+{"id":"8","user_id":"18","product_id":"4","product_price":"301.4","date":"2024-04-28 02:11:04"},
+{"id":"9","user_id":"3","product_id":"2","product_price":"151.2","date":"2024-04-28 02:11:04"},
+{"id":"10","user_id":"3","product_id":"8","product_price":"51.1","date":"2024-04-28 02:11:04"},
+{"id":"11","user_id":"21","product_id":"1","product_price":"1250.5","date":"2024-04-28 02:11:04"},
+{"id":"12","user_id":"18","product_id":"3","product_price":"850.75","date":"2024-04-28 02:11:04"},
+{"id":"13","user_id":"8","product_id":"4","product_price":"350.4","date":"2024-04-28 02:11:04"},
+{"id":"14","user_id":"1","product_id":"2","product_price":"200.2","date":"2024-04-28 02:11:04"},
+{"id":"15","user_id":"7","product_id":"8","product_price":"100.1","date":"2024-04-28 02:11:04"},
+{"id":"16","user_id":"7","product_id":"7","product_price":"1200","date":"2024-04-28 02:11:04"},
+{"id":"17","user_id":"1","product_id":"5","product_price":"500","date":"2024-04-28 02:11:04"},
+{"id":"18","user_id":"20","product_id":"6","product_price":"200","date":"2024-04-28 02:11:04"},
+{"id":"19","user_id":"15","product_id":"9","product_price":"800","date":"2024-04-28 02:11:04"},
+{"id":"20","user_id":"21","product_id":"10","product_price":"100","date":"2024-04-28 02:11:04"},
+{"id":"21","user_id":"3","product_id":"12","product_price":"85","date":"2024-04-28 02:11:04"},
+{"id":"22","user_id":"8","product_id":"11","product_price":"20","date":"2024-04-28 02:11:04"},
+{"id":"23","user_id":"15","product_id":"13","product_price":"25","date":"2024-04-28 02:11:04"},
+{"id":"24","user_id":"18","product_id":"14","product_price":"30","date":"2024-04-28 02:11:04"},
+{"id":"25","user_id":"16","product_id":"15","product_price":"45","date":"2024-04-28 02:11:04"},
+{"id":"26","user_id":"19","product_id":"16","product_price":"75","date":"2024-04-28 02:11:04"},
+{"id":"27","user_id":"12","product_id":"17","product_price":"50","date":"2024-04-28 02:11:04"},
+{"id":"28","user_id":"23","product_id":"18","product_price":"35","date":"2024-04-28 02:11:04"},
+{"id":"29","user_id":"11","product_id":"4","product_price":"20","date":"2024-04-28 02:11:04"},
+{"id":"30","user_id":"21","product_id":"8","product_price":"10","date":"2024-04-28 02:11:04"},
+{"id":"31","user_id":"25","product_id":"7","product_price":"300","date":"2024-04-28 02:11:04"},
+{"id":"32","user_id":"11","product_id":"3","product_price":"250","date":"2024-04-28 02:11:04"},
+{"id":"33","user_id":"13","product_id":"8","product_price":"250","date":"2024-04-28 02:13:11"}
+]
+}
+,{"type":"table","name":"users","database":"api.com","data":
+[
+{"id":"1","name":"John Doe","email":"john.doe@example.com","phone":"+1234567890","address":"123 Main St, City, Country","created_at":"2024-04-28 02:08:18","status":"1"},
+{"id":"2","name":"Jane Smith","email":"jane.smith@example.com","phone":"+1234567891","address":"456 Elm St, City, Country","created_at":"2024-04-28 02:08:18","status":"1"},
+{"id":"3","name":"Michael Johnson","email":"michael.johnson@example.com","phone":"+1234567892","address":"789 Oak St, City, Country","created_at":"2024-04-28 02:08:18","status":"1"},
+{"id":"4","name":"Emily Brown","email":"emily.brown@example.com","phone":"+1234567893","address":"1011 Pine St, City, Country","created_at":"2024-04-28 02:08:18","status":"1"},
+{"id":"5","name":"Daniel Martinez","email":"daniel.martinez@example.com","phone":"+1234567894","address":"1213 Cedar St, City, Country","created_at":"2024-04-28 02:08:18","status":"1"},
+{"id":"6","name":"Sarah Davis","email":"sarah.davis@example.com","phone":"+1234567895","address":"1415 Maple St, City, Country","created_at":"2024-04-28 02:08:18","status":"1"},
+{"id":"7","name":"Christopher Wilson","email":"christopher.wilson@example.com","phone":"+1234567896","address":"1617 Birch St, City, Country","created_at":"2024-04-28 02:08:18","status":"1"},
+{"id":"8","name":"Jessica Taylor","email":"jessica.taylor@example.com","phone":"+1234567897","address":"1819 Walnut St, City, Country","created_at":"2024-04-28 02:08:18","status":"1"},
+{"id":"9","name":"Matthew Anderson","email":"matthew.anderson@example.com","phone":"+1234567898","address":"2021 Chestnut St, City, Country","created_at":"2024-04-28 02:08:18","status":"1"},
+{"id":"10","name":"Amanda Thomas","email":"amanda.thomas@example.com","phone":"+1234567899","address":"2223 Poplar St, City, Country","created_at":"2024-04-28 02:08:18","status":"1"},
+{"id":"11","name":"David Rodriguez","email":"david.rodriguez@example.com","phone":"+1234567800","address":"2425 Fir St, City, Country","created_at":"2024-04-28 02:08:18","status":"1"},
+{"id":"12","name":"Ashley Wilson","email":"ashley.wilson@example.com","phone":"+1234567801","address":"2627 Pine St, City, Country","created_at":"2024-04-28 02:08:18","status":"1"},
+{"id":"13","name":"James Lee","email":"james.lee@example.com","phone":"+1234567802","address":"2829 Oak St, City, Country","created_at":"2024-04-28 02:08:18","status":"1"},
+{"id":"14","name":"Jennifer Garcia","email":"jennifer.garcia@example.com","phone":"+1234567803","address":"3031 Cedar St, City, Country","created_at":"2024-04-28 02:08:18","status":"1"},
+{"id":"15","name":"Ryan Hernandez","email":"ryan.hernandez@example.com","phone":"+1234567804","address":"3233 Maple St, City, Country","created_at":"2024-04-28 02:08:18","status":"1"},
+{"id":"16","name":"Mary Gonzalez","email":"mary.gonzalez@example.com","phone":"+1234567805","address":"3435 Birch St, City, Country","created_at":"2024-04-28 02:08:18","status":"1"},
+{"id":"17","name":"Justin Perez","email":"justin.perez@example.com","phone":"+1234567806","address":"3637 Walnut St, City, Country","created_at":"2024-04-28 02:08:18","status":"1"},
+{"id":"18","name":"Nicole Martinez","email":"nicole.martinez@example.com","phone":"+1234567807","address":"3839 Chestnut St, City, Country","created_at":"2024-04-28 02:08:18","status":"1"},
+{"id":"19","name":"Jacob Young","email":"jacob.young@example.com","phone":"+1234567808","address":"4041 Poplar St, City, Country","created_at":"2024-04-28 02:08:18","status":"1"},
+{"id":"20","name":"Elizabeth Sanchez","email":"elizabeth.sanchez@example.com","phone":"+1234567809","address":"4243 Fir St, City, Country","created_at":"2024-04-28 02:08:18","status":"1"},
+{"id":"21","name":"William Flores","email":"william.flores@example.com","phone":"+1234567810","address":"4445 Pine St, City, Country","created_at":"2024-04-28 02:08:18","status":"1"},
+{"id":"22","name":"Samantha Rivera","email":"samantha.rivera@example.com","phone":"+1234567811","address":"4647 Oak St, City, Country","created_at":"2024-04-28 02:08:18","status":"1"},
+{"id":"23","name":"Tyler Torres","email":"tyler.torres@example.com","phone":"+1234567812","address":"4849 Cedar St, City, Country","created_at":"2024-04-28 02:08:18","status":"1"},
+{"id":"24","name":"Hannah Ramirez","email":"hannah.ramirez@example.com","phone":"+1234567813","address":"5051 Maple St, City, Country","created_at":"2024-04-28 02:08:18","status":"1"},
+{"id":"25","name":"Andrew Flores","email":"andrew.flores@example.com","phone":"+1234567814","address":"5253 Birch St, City, Country","created_at":"2024-04-28 02:08:18","status":"1"}
+]
+}
+]
